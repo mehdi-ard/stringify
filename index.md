@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+# Stringify Numbers
 
-You can use the [editor on GitHub](https://github.com/mehdi-ard/stringify/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+It is a package for converting numbers to letters, which currently only supports the Persian language, and other languages will be added in the future.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Installation
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+npm i stringify-numbers
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# Usage
 
-### Jekyll Themes
+```js
+import { stringifyFa } from 'stringify-numbers';
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mehdi-ard/stringify/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+stringifyFa(125325652);
 
-### Support or Contact
+//return دوازده میلیون و پانصد و سی و دو هزار و پانصد و شصت و پنج
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Use different modes
+
+### Use Toman
+
+```js
+import { stringifyTomans } from 'stringify-numbers';
+
+stringifyTomans(125325652);
+
+//return دوازده میلیون و پانصد و سی و دو هزار و پانصد و شصت و پنج تومان
+```
+
+### Use Rial
+
+```js
+import { stringifyRials } from 'stringify-numbers';
+
+stringifyTomans(125325652);
+
+//return یکصد و بیست و پنج میلیون و سیصد و بیست و پنج هزار و ششصد و پنجاه و دو ریال
+```
