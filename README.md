@@ -4,7 +4,9 @@ It is a package for converting numbers to letters, which currently only supports
 
 # Installation
 
-`npm i stringify-numbers`
+```
+npm i stringify-numbers
+```
 
 # Usage
 
