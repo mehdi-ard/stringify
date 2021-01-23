@@ -1,0 +1,20 @@
+{
+  "license": "MIT",
+  "main": "index.js",
+  "name": "stringify-number",
+  "types": "index.js",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehdi-ard/stringify.git"
+  },
+  "keywords": ["javascript", "react", "vue", "angular", "node.js", "convert string", "stringify", "convert number"],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/mehdi-ard/stringify/issues"
+  },
+  "homepage": "https://github.com/mehdi-ard/stringify#readme"
+}
