@@ -35,7 +35,7 @@ stringifyTomans(125325652);
 ```js
 import { stringifyRials } from 'stringify-numbers';
 
-stringifyTomans(125325652);
+stringifyRials(125325652);
 
 //return یکصد و بیست و پنج میلیون و سیصد و بیست و پنج هزار و ششصد و پنجاه و دو ریال
 ```
